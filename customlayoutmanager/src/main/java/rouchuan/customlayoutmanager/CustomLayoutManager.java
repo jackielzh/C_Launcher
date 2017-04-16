@@ -238,7 +238,7 @@ public abstract class CustomLayoutManager extends RecyclerView.LayoutManager {
     }
 
     private float getMaxOffset() {
-        return isClockWise ? (getItemCount() - 1) * interval : 0;
+        return isClockWise ? (getItemCount() - 6) * interval : 0;
     }
 
     private float getMinOffset() {
